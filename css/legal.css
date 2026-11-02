@@ -1,0 +1,154 @@
+
+/* =========================================
+   HALVOR TECHNOLOGIES
+   LEGAL PAGES
+========================================= */
+
+.legal-page {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* HERO */
+
+.legal-hero {
+    padding: 100px 20px 70px;
+    background: linear-gradient(135deg, #111, #252525);
+    color: #fff;
+
+    text-align: center;
+}
+
+.legal-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.legal-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.legal-hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.legal-hero p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+.last-updated {
+    display: block;
+    margin-top: 25px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+/* CONTENT */
+
+.legal-content {
+
+    padding: 70px 20px;
+    background: #fff;
+}
+
+.legal-content h2 {
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.legal-content h2:first-child {
+    margin-top: 0;
+}
+
+.legal-content h3 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+
+.legal-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.legal-content ul {
+    margin: 15px 0 25px 25px;
+}
+
+.legal-content li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+/* CONTACT BOX */
+
+.legal-contact-box {
+    margin-top: 35px;
+    padding: 25px;
+    background: #f5f5f5;
+    border-left: 4px solid #111;
+    border-radius: 8px;
+}
+
+.legal-contact-box strong {
+    font-size: 20px;
+    color: #111;
+}
+
+.legal-contact-box p {
+    margin: 8px 0;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+
+    .legal-hero {
+        padding: 75px 20px 50px;
+    }
+
+    .legal-hero h1 {
+        font-size: 34px;
+    }
+
+    .legal-hero p {
+        font-size: 15px;
+    }
+
+    .legal-content {
+        padding: 50px 20px;
+    }
+
+    .legal-content h2 {
+        font-size: 22px;
+    }
+
+    .legal-content p,
+    .legal-content li {
+        font-size: 15px;
+    }
+}

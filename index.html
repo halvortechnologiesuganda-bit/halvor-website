@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halvor Technologies | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="./halvor logo.png" alt="Halvor Technologies Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+          <span class="logo-text" style="display:none;">Halvor</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      
+        </ul>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-bg">
+  <canvas class="code-rain" id="codeRain" aria-hidden="true"></canvas>
+
+  <div class="hero-grid"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-particles"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Tech & Media Solutions
+      </div>
+      <h1 class="hero-title">Halvor <span>Technologies</span></h1>
+      <p class="hero-slogan">Innovate. Create. Captivate.</p>
+      <p class="hero-subtitle">
+        Your trusted partner for Networking, Photography, Videography, Graphics,
+        Cinematography, Web & Mobile Development, Computer Training and IT Consultation.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="services.html" class="btn btn-primary">Explore Our Services</a>
+        <a href="contact.html" class="btn btn-secondary">Hire Me</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Core Services</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Client Focus</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Support Ready</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-tech-lines">
+      <span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ==================== HOME PREVIEW – SERVICES ==================== -->
+  <section class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What We Offer</h2>
+        <p class="section-subtitle">End-to-end solutions that blend technology with creative craftsmanship</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card animate-on-scroll">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1691435828932-911a7801adfb?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Networking" loading="lazy">
+            <div class="service-img-overlay"></div>
+            <span class="service-num">01</span>
+          </div>
+          <div class="service-body">
+            <h3>Networking</h3>
+            <p>Reliable network design, installation, and maintenance for homes and businesses.</p>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1617734804451-1675044ff489?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photography" loading="lazy">
+            <div class="service-img-overlay"></div>
+            <span class="service-num">02</span>
+          </div>
+          <div class="service-body">
+            <h3>Photography & Videography</h3>
+            <p>Professional visual content for events, products, and corporate storytelling.</p>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1592609931041-40265b692757?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Web Development" loading="lazy">
+            <div class="service-img-overlay"></div>
+            <span class="service-num">03</span>
+          </div>
+          <div class="service-body">
+            <h3>Web & Mobile Development</h3>
+            <p>Modern, responsive websites and custom mobile applications.</p>
+          </div>
+        </article>
+      </div>
+
+      <div style="text-align:center; margin-top: 40px;">
+        <a href="services.html" class="btn btn-primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col brand">
+          <h3 class="footer-logo">Halvor Technologies</h3>
+          <p class="footer-tagline">Innovate. Create. Captivate.</p>
+          <p class="footer-desc">
+            Delivering professional solutions in networking, photography, graphics, cinematography, web & mobile development, and computer training.
+          </p>
+          <div class="footer-actions">
+            <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+            <a href="tel:+256740897466" class="btn btn-outline">Call Us</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Networking</a></li>
+            <li><a href="services.html">Photography</a></li>
+            <li><a href="services.html">Graphics Design</a></li>
+            <li><a href="services.html">Cinematography</a></li>
+            <li><a href="services.html">Web & Mobile Development</a></li>
+            <li><a href="training.html">Computer Training</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact">
+          <h4>Contact Us</h4>
+          <ul class="contact-list">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <a href="mailto:halvortechnologiesuganda@gmail.com">halvortechnologiesuganda@gmail.com</a>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:+256740897466">+256 740 897 466</a>
+              
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>Kabale, Uganda</span>
+            </li>
+          </ul>
+
+  <div class="social-links">
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/Edmond Niwenyesiga"
+       class="facebook"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/edmondniwenyesiga"
+       class="instagram"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- X -->
+    <a href="https://x.com/halvortech2003"
+       class="x-twitter"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <!-- WhatsApp - YOUR REAL NUMBER -->
+    <a href="https://wa.me/256740897466?text=Hello%20Halvor%20Technologies,%20I%20would%20like%20to%20make%20an%20inquiry."
+       class="whatsapp"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+   
+ <!-- YouTube -->
+    <a href="https://www.youtube.com/@halvortechnologies"
+       class="youtube"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+
+</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Halvor Technologies. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="privacy policy.html">Privacy Policy</a>
+          <a href="terms of service.html">Terms of Service</a>
+          <a href="cookie policy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
